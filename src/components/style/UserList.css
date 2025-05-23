@@ -1,0 +1,44 @@
+.dashboard-container p{
+  text-align: center;
+}
+.category-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.category-card {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  max-width: 350px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.category-card:hover {
+  transform: translateY(-5px);
+}
+
+.category-card h3 {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.category-card button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.category-card button:hover {
+  background: #0056b3;
+}

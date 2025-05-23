@@ -1,0 +1,148 @@
+/* Main Footer Styles */
+.footer {
+    background-color: #e7e6e5;
+    color: #333;
+    padding: 40px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); /* Improved for responsiveness */
+    gap: 30px;
+    margin-top: 40px;
+    border-top: 3px solid #e1dedf; /* Added a top border for separation */
+  }
+  
+  .footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .footer-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin: 10px 0;
+  }
+  
+  .footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #f67280;
+    font-weight: bold;
+  }
+  
+  .footer-bottom {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  
+  .footer-social {
+    margin-bottom: 15px;
+  }
+  
+  .footer-social a {
+    margin: 0 15px;
+    color: #fff;
+    font-size: 28px;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social a:hover {
+    color: #f67280;
+  }
+  
+  .footer-logo {
+    margin-bottom: 15px;
+  }
+  
+  .footer-logo p {
+    font-size: 18px;
+    color: #f67280;
+    font-weight: 600;
+  }
+  
+  .footer-copyright p {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 10px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    .footer {
+      grid-template-columns: 1fr 1fr; /* Two columns on smaller screens */
+    }
+  
+    .footer-section h3 {
+      font-size: 18px;
+    }
+  
+    .footer-section ul li a {
+      font-size: 14px;
+    }
+  
+    .footer-bottom {
+      padding: 15px 0;
+    }
+  
+    .footer-social a {
+      font-size: 22px;
+    }
+  
+    .footer-logo p {
+      font-size: 16px;
+    }
+  
+    .footer-copyright p {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      grid-template-columns: 1fr; /* Single column on very small screens */
+    }
+  
+    .footer-section h3 {
+      font-size: 16px;
+    }
+  
+    .footer-section ul li a {
+      font-size: 12px;
+    }
+  
+    .footer-social a {
+      font-size: 18px;
+    }
+  
+    .footer-logo p {
+      font-size: 14px;
+    }
+  
+    .footer-copyright p {
+      font-size: 10px;
+    }
+  }
+  
